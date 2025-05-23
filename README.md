@@ -26,8 +26,18 @@ git clone https://github.com/ciccio42/EvolveGCN.git
 git checkout compute_roc
 ```
 
-## Running 
+## Train and Test
+```bash
+# Dominant Train
+nohup train.sh > dominant_train.txt &
 
+# Dominant Test
+nohup test_tdg.sh > test_tdg.txt & # Test tdg model
+nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
+```
+
+
+**NOTE** Configure the bash file correctly. You need to set the snapshot to use and your paths to dataset.
 
 ## Note
 For any errors and/or questions about the code either open an issue or mail **frosa@unisa.it**, with object "QUESTION-CODE: Graph Neural Networks for IoT Security: A Comparative Study"
