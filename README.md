@@ -23,15 +23,26 @@ Download dataset snaposhots and stats by following instructions reported [here](
 mkdir gnn-network-analysis/dynamic_graphs
 cd gnn-network-analysis/dynamic_graphs
 git clone https://github.com/ciccio42/EvolveGCN.git
-git checkout compute_roc
+git checkout pub_iot
 ```
 
 ## Train and Test
 ```bash
+cd DOMINANT
 # Dominant Train
 nohup train.sh > dominant_train.txt &
 
 # Dominant Test
+nohup test_tdg.sh > test_tdg.txt & # Test tdg model
+nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
+```
+
+```bash
+cd OCGNN
+# OC-GNN Train
+nohup train.sh > dominant_train.txt &
+
+# OC-GNN Test
 nohup test_tdg.sh > test_tdg.txt & # Test tdg model
 nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
 ```
