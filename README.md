@@ -15,17 +15,18 @@ pip install torch==2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.
 ```bash
 mkdir anomaly_detection_dataset
 ```
-Download dataset snaposhots and stats by following instructions reported [here]().</br>
+Download dataset snaposhots and stats by following instructions reported here.</br>
 **NOTE** The link to the dataset will be released after the acceptance of the paper.
 
 
 ## Download Dynamic Graphs Dependencies
-```bash
+**NOTE** Dynamic Graphs dependencies will be added after the acceptance of the paper
+!!!```bash
 mkdir gnn-network-analysis/dynamic_graphs
 cd gnn-network-analysis/dynamic_graphs
 git clone https://github.com/ciccio42/EvolveGCN.git
 git checkout pub_iot
-```
+```!!!
 
 ## Train and Test
 ```bash
@@ -52,6 +53,6 @@ nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
 **NOTE** Configure the bash file correctly. You need to set the snapshot to use and your paths to dataset.
 
 ## Note
-<For any errors and/or questions about the code either open an issue or mail **frosa@unisa.it**, with object "QUESTION-CODE: Graph Neural Networks for IoT Security: A Comparative Study">
+!!!For any errors and/or questions about the code either open an issue or mail **frosa@unisa.it**, with object "QUESTION-CODE: Graph Neural Networks for IoT Security: A Comparative Study"!!!
 
 
