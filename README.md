@@ -21,12 +21,6 @@ Download dataset snaposhots and stats by following instructions reported here.</
 
 ## Download Dynamic Graphs Dependencies
 **NOTE** Dynamic Graphs dependencies will be added after the acceptance of the paper
-!!!```bash
-mkdir gnn-network-analysis/dynamic_graphs
-cd gnn-network-analysis/dynamic_graphs
-git clone https://github.com/ciccio42/EvolveGCN.git
-git checkout pub_iot
-```!!!
 
 ## Train and Test
 ```bash
@@ -53,6 +47,4 @@ nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
 **NOTE** Configure the bash file correctly. You need to set the snapshot to use and your paths to dataset.
 
 ## Note
-!!!For any errors and/or questions about the code either open an issue or mail **frosa@unisa.it**, with object "QUESTION-CODE: Graph Neural Networks for IoT Security: A Comparative Study"!!!
-
 
