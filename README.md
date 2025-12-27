@@ -17,16 +17,12 @@ pip install torch==2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.
 ```bash
 mkdir anomaly_detection_dataset
 ```
-Download dataset snaposhots and stats by following instructions reported [here](https://zenodo.org/records/15181384). </br>
+Download dataset snaposhots and stats by following instructions reported here.</br>
+**NOTE** The link to the dataset will be released after the acceptance of the paper.
 
 
 ## Download Dynamic Graphs Dependencies
-```bash
-mkdir gnn-network-analysis/dynamic_graphs
-cd gnn-network-analysis/dynamic_graphs
-git clone https://github.com/ciccio42/EvolveGCN.git
-git checkout pub_iot
-```
+**NOTE** Dynamic Graphs dependencies will be added after the acceptance of the paper
 
 ## Train and Test
 ```bash
