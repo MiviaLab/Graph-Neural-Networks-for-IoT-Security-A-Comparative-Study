@@ -1,5 +1,7 @@
 # Repository
-The code available in this repository has been used for producing the results reported in *Graph Neural Networks for IoT Security: A Comparative Study*
+The code available in this repository has been used for producing the results reported in *Graph Neural Networks for IoT Security: A Comparative Study* </br>
+
+DOI: https://doi.org/10.1016/j.iot.2025.101863
 
 # How to use the code
 
@@ -47,10 +49,10 @@ nohup test_tdg.sh > test_tdg.txt & # Test tdg model
 nohup test_etdg.sh > test_etdg.txt & # Test e-tdg model
 ```
 
+For training and test Dynamic Methods follow the instruction reported [here](https://github.com/ciccio42/EvolveGCN/tree/pub_iot)
+
 
 **NOTE** Configure the bash file correctly. You need to set the snapshot to use and your paths to dataset.
 
 ## Note
 For any errors and/or questions about the code either open an issue or mail **frosa@unisa.it**, with object "QUESTION-CODE: Graph Neural Networks for IoT Security: A Comparative Study"
-
-
